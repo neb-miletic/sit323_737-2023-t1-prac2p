@@ -5,7 +5,7 @@ let app = exoress()
 //respond with 'Hello world' when GET request is made to the homepage
 
 app.get('/', function (req, res) {
-    res.send('hello world')
+    res.send('Hello world!')
 })
 
 // Listen to a particular port
